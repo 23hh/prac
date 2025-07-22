@@ -1,35 +1,70 @@
-.challenge2 {
-  background-color: #fff;
-  background-image:
-    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-    linear-gradient(#eee .1em, transparent .1em);
-  background-size: 100% 1.2em;
-  padding-left: 10%;
+body {
+  display: contents;
 }
 
-p {
-  font-style: italic;
-  font-size: 16px;
-  font-family: Verdana;
+.header {
+  float: right;
+  margin: 20px;
 }
 
-p::first-letter {
-  font-size: 200%;
-  color: #2980b9
+.header-item {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
 }
 
-.sub-header {
-  color: #2980b9;
+.header-item:hover {
+  text-decoration: underline;
 }
 
-h1 {
-  color: #9b59b6;
-}
-
-h1::before {
-  content: "Topic: ";
-}
-
-h1:first-child {
+.main {
+  margin-top: 300px;
   text-align: center;
+}
+
+.icon-bar {
+  margin-top: 20px;
+}
+
+.input-box {
+  width: 548px;
+  height: 46px;
+  border-radius: 24px;
+  border: 1px solid #ccc;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.search-icon {
+  position: relative;
+  left: 40px;
+}
+
+.mic-icon {
+  position: relative;
+  right: 40px;
+}
+
+.button-area {
+  padding-top: 18px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.button-area i {
+  margin: 0 12px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #f1f1f1;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+.footer-item {
+  float: right;
+  margin: 0 10px;
+  text-decoration: none;
 }
